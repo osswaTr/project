@@ -1,0 +1,31 @@
+{
+  "name": "mon_projet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css": "npx tailwindcss -i ./src/input.css -o ./public/css/styles.css",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "alpinejs": "^3.13.10",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.2",
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "express-hbs": "^2.5.0",
+    "express-session": "^1.18.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "start": "^5.1.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
